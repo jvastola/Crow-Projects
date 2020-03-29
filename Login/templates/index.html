@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en" style="padding-top: 80px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>My Great Project</title>
+
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+    <script src="jquery/jquery.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+
+    <style>
+       
+
+        .padded{
+            margin-top: 10px;
+        }
+        .padded-more{
+            margin-top: 40px;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">My Great Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+
+    <main role="main">
+        <div class="container" id="userArea" style="display:none">
+            <div class="row">
+                <div class="col">
+                    <h1 id="userHeading"></h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="createAccountBox" style="display: none">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Create Account</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 padded">
+                    <input class="form-control" placeholder="Choose Username" id="usernameSelection">
+                </div>
+                <div class="col-md-6 padded">
+                    <input type="password" class="form-control" placeholder="Choose Password" id="passwordSelection">
+                </div>
+            </div>
+            <div class="row padded-more">
+                <div class="col-md-6 padded">
+                    <input class="form-control" placeholder="First Name" id="firstNameInput">
+                </div>
+                <div class="col-md-6 padded">
+                    <input class="form-control" placeholder="Last Name" id="lastNameInput">
+                </div>
+            </div>
+            <div class="row padded">
+                <div class="col">
+                    <input class="form-control" placeholder="Email Address" id="emailInput">
+                </div>
+            </div>
+            <div class="row padded-more">
+                <div class="col-md-6 padded">
+                    <button class="btn btn-primary form-control" id="createAccountButton">Create Account</button>
+                </div>
+                <div class="col-md-6 padded">
+                    <button class="btn btn-danger form-control" id="cancelAccountCreationButton">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="signInBox">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <h1>Sign In</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center padded">
+                <div class="col-md-6">
+                    <input class="form-control" placeholder="Username" id="usernameInput">
+                </div>
+            </div>
+            <div class="row justify-content-center padded">
+                <div class="col-md-6">
+                    <input type="password" class="form-control" placeholder="Password" id="passwordInput">
+                </div>
+            </div>
+            <div class="row justify-content-center padded">
+                <div class="col-md-6">
+                    <button class="btn btn-primary form-control" id="signInButton">Sign In</button>
+                </div>
+            </div>
+            <div class="row justify-content-center padded-more">
+                <div class="col-md-6">
+                    <p>Don't have an account? Sign up below...</p>
+                </div>
+            </div>
+            <div class="row justify-content-center padded">
+                <div class="col-md-6">
+                    <button class="btn btn-secondary form-control" id="showSignupFormButton">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

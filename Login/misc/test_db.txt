@@ -1,0 +1,2 @@
+angelo:abc123:Angelo:Kyrilov:akyrilov@ucmerced.edu:1a692274-c2c7-4571-8720-286b3ab2cbfe
+john:abc123:John:Smith:jsmith@ucmerced.edu:529bd0bd-06d5-46d8-a465-2e2e166039ee
